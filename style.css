@@ -1,0 +1,30 @@
+body {
+    background-color: #f0f0f0; /* 设置整体背景色 */
+    padding: 20px; /* 可根据需要调整页面内边距 */
+}
+
+.post {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    margin-bottom: 20px !important;
+    padding: 15px !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+}
+
+.post .post-title {
+    flex: 1;
+    font-size: 1.5em;
+    margin: 0 !important;
+}
+
+.post .post-content {
+    flex: 5;
+    margin-left: 20px !important;
+}
+
+.post .post-meta {
+    flex: 0 0 auto;
+    margin-left: 60px !important;
+}
