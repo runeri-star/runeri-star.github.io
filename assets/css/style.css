@@ -9,10 +9,10 @@
           }
           
     :root {
-      --page-margin:           25px;
-      --page-width:            940px;
+      --page-margin:           30px;
+      --page-width:            640px;
       --left-bar-width:        auto;
-      --right-bar-width:       270px;
+      --right-bar-width:       300px;
       --entry-width:           660px; 
       --featured-image-height: auto;
       --border-radius:         6px; 
@@ -44,17 +44,17 @@
       --red: 334, 100%, 56%;
       --white: #FFFFFF;
       --black: #000000;
-      --background: hsla(214, 17%, 8%, 1);
-      --background-transparent: hsla(214, 17%, 8%, .85);
-      --background-pattern: radial-gradient(rgb(31, 37, 46) 1px, transparent 1px), radial-gradient(rgb(31, 37, 46) 1px, rgba(31, 37, 46, 0) 1px);
+      --background: hsla(0, 0%, 100%, 1);
+      --background-transparent: hsla(0, 0%, 100%, .85);
+      --background-pattern: radial-gradient(rgb(245, 245, 245) 1px, transparent 1px), radial-gradient(rgb(245, 245, 245) 1px, rgba(255, 255, 255, 0) 1px); 
       --accent-light: hsla(334, 100%, 56%, .8);
       --accent-medium: hsla(334, 100%, 56%, 1);
       --accent-transparent: hsla(334, 100%, 56%, .5);
-      --color-lighter: hsla(220, 11%, 15%, 1);
-      --color-light: hsla(220, 11%, 17%, 1);
-      --color-medium: hsla(220, 11%, 20%, 1);
-      --color-dark: hsla(220, 11%, 60%, 1);
-      --color-darker: hsla(220, 11%, 94%, 1);
+      --color-lighter: hsla(220, 11%, 96%, 1);
+      --color-light: hsla(220, 11%, 90%, 1);
+      --color-medium: hsla(220, 11%, 85%, 1);
+      --color-dark: hsla(220, 11%, 45%, 1);
+      --color-darker: hsla(220, 11%, 11%, 1);
     
       }*,
 *:before,
@@ -1884,11 +1884,6 @@ textarea {
 p {
     margin-bottom: 1em;
 }
-body {
-    background-color: #f8f8f8;
-    color: #333;
-}
-
 a {
     color: #ff6691; /* 粉色链接 */
 }
